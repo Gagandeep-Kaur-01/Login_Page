@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Login page design </title>
+</head>
+<body background="8.jpg">
+<body bgcolor="000000">
+
+<body>
+<img src="book.jpg" width=300px" height="200px" align="center"> 
+
+
+</body>
+
+<font size="30" color="maroon"><marquee><h1> WELCOME TO LOGIN</h1></marquee>
+<!--
+<table border= "0" bordercolor="#808080" align="center" bgcolor="#808080">
+<tr>
+<!--<td><font size="100" align="center" color ="8000080"> <marquee WELCOME TO LOGIN  </marquee>  </td>
+
+</tr> -->
+
+<table border= "10" bordercolor="#000000" align="center" bgcolor="ADD8E6">
+
+
+<tr>
+<td> <font size="5" COLOR="maroon"> USER_ID</td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td> <font size="5" COLOR="maroon"> Password </td>
+<td><input type="password"></td>
+</tr>
+
+<td> </td>
+<td><font size="10" COLOR="maroon"><button type="submit">Log in</button></td>
+
+
+</table>
+<style>
+.header {
+    position: fixed;
+    left: 0;
+  top: 0;
+    width: 100%;
+	height:10%;
+    background-color: pink;
+    color: black;
+    text-align: center;
+}
+</style>
+<div class="header">
+  <p>This is Login Page</p>
+</div>
+<style>
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	height:10%;
+    background-color: pink;
+    color: black;
+    text-align: center;
+}
+</style>
+
+<div class="footer">
+  <p>This is Login Page</p>
+</div>
+
+</body>
+</html>
