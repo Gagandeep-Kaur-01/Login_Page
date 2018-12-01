@@ -3,36 +3,102 @@
 <html>
 
 <head>
-<title>Login page design </title>
+<title>Login Page </title>
 </head>
 
-<!--<body>
-<div id = "container">
-<div class ="header">
-<img src="logo.jpg" alt="">
-    
-</div>   
+<style>
+body    {
+      background: black;
+	  margin: 0;
+}
 
+.menu {
+width: 100%;
+background:skyblue;
+overflow: auto:
+}
 
-<!--<body background="8.jpg">                      // set background img                               -->  
-<body bgcolor="000000">
+.menu ul   {
+margin: 0;
+padding: 0;
+list-style: none;
+line-height : 100px; 
+}
 
+.menu li{
+float: left;
+}
+
+.menu ul li a{
+background: skyblue;
+text-decoration: none;
+
+width:200px;
+display: block;
+text-align:center;
+color: #000000;
+font-size:30px;
+font-family:sans-sarief;
+letter-spacing:0.5px;
+ }
+ 
+ .menu li a:hover {
+       color:#fff;
+	   opacity:0.10;
+	   font-size:21px;
+	   
+ }
+ .search-form{
+ margin-top:35px;
+ float:right;
+ margin-right: 100px;
+ }
+ input[type=text] {
+ padding:10px;
+ border:none;
+ font-size:16px;
+ font-family:sans-sarief;
+ }
+ 
+ button {
+ float:right;
+ background:orange;
+ color:white;
+ border-radius:0 5px 5px 0;
+ cursor:pointer;  
+ position:relative;   
+ padding:10px;
+ font-family:sans-serif;
+ border:none;
+ font-size:16px;
+ 
+ }
+ 
+ </style>
+ 
+</head>
 <body>
-                                 <!--       <img src="book.jpg" width=300px" height="200px" align="center"> -->
+<nav class ="menu">
+<ul>
+                          <li><a href ="#"> Home</a></li>
+        			   <li><a href ="#"> About</a></li>
+					   <li><a href ="#"> News</a></li>
+					   <li><a href ="#"> Events</a></li>
+		     			<li><a href ="#"> Register</a></li>
+					<li><a href ="#"> Feedback</a></li>
+					 <li><a href ="#"> Contact</a></li>
+</ul>
 
-
+<form class ="search-form">
+<input type ="text" placeholder ="Search">
+<button> Search </button>
+</form>
+</nav>
 </body>
 
-<font size="20" color="maroon"><h1> WELCOME TO LOGIN</h1>
-<!--
-<table border= "0" bordercolor="#808080" align="center" bgcolor="#808080">
-<tr>
-<!--<td><font size="100" align="center" color ="8000080"> <marquee WELCOME TO LOGIN  </marquee>  </td>
-
-</tr> -->
+<font size="20" color="#ffffff"><h1> WELCOME TO LOGIN</h1>
 
 <table border= "10" bordercolor="#000000" align="center" bgcolor="ADD8E6">
-
 
 <tr>
 <td> <font size="5" COLOR="maroon"> USER_ID</td>
@@ -42,12 +108,12 @@
 <td> <font size="5" COLOR="maroon"> Password </td>
 <td><input type="password"></td>
 </tr>
-
 <td> </td>
 <td><font size="10" COLOR="maroon"><button type="submit">Log in</button></td>
-
-
 </table>
+
+<!-- ##################################################################################################################################  -->
+
 <style>
 .header {
     position: fixed;
@@ -55,31 +121,32 @@
   top: 0;
     width: 100%;
 	height:10%;
-    background-color: gray;
-
+    background-color: gray ;
+	 text-align: center;
+	 font size=10;
 }
 </style>
 <div id = "container">
 <div class="header">
-<img src="hobby.jpg" alt="" height= 90% width= 10%>
+<img src="hobby.jpg" alt="" height= 100% width= 10% align ="left">
+<img src="hoby.png" height= 100% width= 10% align ="right">
+<body> Things I Do In Spare Time </body>
 </div>
 <style>
 
 .footer {
     position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-	height:10%;
-    background-color: pink;
-	<img src="logo.jpg" alt="">
-    color: black;
-    text-align: center;
-}
+     width: 100%;
+	height:80px;
+	background-color: gray;
+	bottom: 0;
+	text-align: center;
+	}
+
 </style>
 
 <div class="footer">
-  <p>This is Login Page</p>
+  <p>$copy: 0000 Copyright. All Rights Reserved</p>
 </div>
 
 </body>
